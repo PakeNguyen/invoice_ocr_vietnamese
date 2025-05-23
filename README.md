@@ -18,10 +18,22 @@
   - Địa chỉ
   - Mã hóa đơn
   - Ngày hóa đơn
+  - Thông tin món ăn
   - Tổng tiền
 - 🧑‍💻 Giao diện cho phép chỉnh sửa kết quả trước khi lưu
 - 🗄️ Lưu dữ liệu vào **cơ sở dữ liệu MySQL** qua Python connector
 - 🌐 Giao diện web thân thiện, xây dựng bằng Streamlit
+
+## 🛠️ Yêu cầu:
+- Python 3.10.16
+- torch (PyTorch)
+- opencv-python
+- pandas
+- Pillow
+- paddleocr
+- vietocr
+- streamlit
+- mysql-connector-python
 
 ## 🖼️ Minh họa
 
@@ -29,9 +41,8 @@
 *Quy trình: Tải ảnh → Trích xuất → Chỉnh sửa → Lưu dữ liệu*
 
 ## 🚀 Hướng dẫn chạy ứng dụng
-
-### 1. Clone repository
-
-```bash
-git clone https://github.com/PakeNguyen/invoice_ocr_vietnamese.git
-cd invoice_ocr_vietnamese
+  ### 1. Clone repository
+  
+  ```bash
+  git clone https://github.com/PakeNguyen/invoice_ocr_vietnamese.git
+  cd invoice_ocr_vietnamese
