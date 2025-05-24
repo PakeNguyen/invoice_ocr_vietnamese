@@ -1,0 +1,8 @@
+torch
+opencv-python
+pandas
+Pillow
+paddleocr
+vietocr
+streamlit
+mysql-connector-python
