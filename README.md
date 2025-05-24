@@ -37,7 +37,7 @@
 
 ## 🖼️ Minh họa
 
-![Ảnh demo](demo_screenshot.png)  
+![Ảnh demo](image/demo.png)  
 
 
 ## 🚀 Hướng dẫn chạy ứng dụng
