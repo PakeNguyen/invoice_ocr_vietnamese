@@ -41,10 +41,10 @@
 
 
 ## 🚀 Hướng dẫn chạy ứng dụng
-  # 1. Clone repository
+  #### 1. Clone repository
   
   ```bash
   git clone https://github.com/PakeNguyen/invoice_ocr_vietnamese.git
   cd invoice_ocr_vietnamese
   ```
-  # 2. Chạy lệnh (streamlit run streamlit_app.py) trong terminal khi ở trong thư mục invoice_ocr_vietnamese
+  #### 2. Chạy lệnh (streamlit run streamlit_app.py) trong terminal khi ở trong thư mục invoice_ocr_vietnamese
