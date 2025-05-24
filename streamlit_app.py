@@ -96,22 +96,22 @@ if uploaded_file:
 
 
     with right_col:
-        st.markdown("<h3 style='text-align: center;'>📋 Danh sách món ăn</h3>", unsafe_allow_html=True)
+        st.markdown("<h3 style='text-align: center;'>📋 Thông tin hóa đơn</h3>", unsafe_allow_html=True)
         col1, col2 = st.columns(2)
 
         with col1:
             bill_id = st.text_input("🧾 Mã hóa đơn", info.get("bill_id", ""))
-            payment_method = st.text_input("💳 Phương thức thanh toán", info.get("payment_method", ""))
             restaurant_name = st.text_input("🍽️ Tên quán", info.get("restaurant_name", ""))
-            staff = st.text_input("👨‍🍳 Nhân viên phục vụ", info.get("staff", ""))
-            total_amount = st.number_input("💰 Tổng tiền", value=info.get("total_amount", 0), min_value=0)
+            phone = st.text_input("📱 Số điện thoại", info.get("phone", ""))
+            cashier = st.text_input("👩‍💼 Thu ngân", info.get("cashier", ""))
+            payment_method = st.text_input("💳 Phương thức thanh toán", info.get("payment_method", ""))
 
         with col2:
-            cashier = st.text_input("👩‍💼 Thu ngân", info.get("cashier", ""))
             date = st.date_input("📅 Ngày", info.get("date", "2024-01-01"))
-            phone = st.text_input("📱 Số điện thoại", info.get("phone", ""))
             address = st.text_input("📍 Địa chỉ", info.get("address", ""))
+            staff = st.text_input("👨‍🍳 Nhân viên phục vụ", info.get("staff", ""))
             table = st.text_input("🪑 Bàn số", info.get("table", ""))
+            total_amount = st.number_input("💰 Tổng tiền", value=info.get("total_amount", 0), min_value=0)
 
         # ==== DANH SÁCH MÓN ĂN CHIA 2 CỘT ====
         st.subheader("📋 Danh sách món ăn")
