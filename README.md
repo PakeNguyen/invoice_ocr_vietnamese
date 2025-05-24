@@ -35,7 +35,7 @@
 - streamlit
 - mysql-connector-python
 
-## 🖼️ Minh họa
+## 🖼️ Ảnh demo
 
 ![Ảnh demo](image/demo.png)  
 
