@@ -57,3 +57,4 @@
   
   #### 3. Chạy Streamlit (giao diện)
   - streamlit run streamlit_app.py (trong terminal khi ở trong thư mục invoice_ocr_vietnamese)
+
